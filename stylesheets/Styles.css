@@ -1,5 +1,5 @@
 body{
-    background-image: url(siteimages/notebookcover.jpg);
+    background-image: url('siteimages/notebookcover.jpg');
   }
 
   /*text style*/
@@ -16,7 +16,7 @@ body{
     text-align: justify;
   }
 
-  .main {
+  article {
     margin-left: 180px;
     padding: 0px 0px;
     margin-right: 20px;
@@ -52,7 +52,7 @@ body{
   }
 
   /*header*/
-  .header {
+  header {
     top: 0%;
     margin-left: 153px;
     width: 100%;
@@ -74,5 +74,4 @@ body{
     color: white;
     display: block;
   }
-  
   
