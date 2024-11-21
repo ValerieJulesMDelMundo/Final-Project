@@ -23,6 +23,9 @@ body{
     float: left;
     margin: 10px;
     margin-bottom: 50px;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
   }
 
   .stickynote2{
@@ -32,6 +35,19 @@ body{
     text-align: center;
     float: left;
     margin: 10px;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .stickynote2:hover{
+    background-color:#ff95c6 ;
+    color: black;
+  }
+
+  .stickynote1:hover{
+    background-color:#ff95c6 ;
+    color: black;
   }
 
   sector {
