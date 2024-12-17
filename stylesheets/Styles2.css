@@ -1,5 +1,5 @@
-body{
-    background-image: url('siteimages/notebookcover.jpg');
+  :root {
+    background-image: url("siteimages/notebookcover.png");
   }
 
   /*text style*/
@@ -23,9 +23,6 @@ body{
     float: left;
     margin: 10px;
     margin-bottom: 50px;
-    transition-property: background-color, color;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
   }
 
   .stickynote2{
@@ -35,9 +32,6 @@ body{
     text-align: center;
     float: left;
     margin: 10px;
-    transition-property: background-color, color;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
   }
 
   .stickynote2:hover{
@@ -50,11 +44,39 @@ body{
     color: black;
   }
 
-  sector {
+  section {
     margin-left: 180px;
     padding: 0px 0px;
     margin-right: 20px;
   } 
+
+  .sprite {
+    background-image: url("siteimages/babycrwling.png") no-repeat 0 0;
+    width: 82px; 
+    height: 69px;
+    margin-left: 180px ;
+    animation: varName 1s steps(4) infinite;
+  }
+  @keyframes varName{
+    from{background-position-x:0px;}
+    to{background-position-x:-405px;}
+  }
+
+  iframe{
+    display: block;
+    margin:auto
+  }
+
+  /*header*/
+  header {
+    top: 0%;
+    margin-left: 153px;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    position: fixed;
+    display: inline-block;
+  }
 
   /*navigation bar*/
   nav {
@@ -76,9 +98,8 @@ body{
     color: #f5a5ca;
     display: block;
   }
-  nav a:hover {
-    color: #ffffff;
-  }
+
+  nav a:hover {color: #ffffff;}
 
   @media screen and (max-height: 450px) {
     nav {padding-top: 15px;}
@@ -86,7 +107,7 @@ body{
   }
 
   /*header*/
-  header {
+  .header {
     top: 0%;
     margin-left: 153px;
     width: 100%;
