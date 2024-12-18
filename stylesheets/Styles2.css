@@ -1,5 +1,5 @@
   :root {
-    background-image: url("siteimages/notebookcover.png");
+    background:url("siteimages/notebookcover.png");
   }
 
   /*text style*/
@@ -51,7 +51,7 @@
   } 
 
   .sprite {
-    background-image: url("siteimages/babycrwling.png") no-repeat 0 0;
+    background: url(/siteimages/babycrawling.png) no-repeat 0, 0;
     width: 82px; 
     height: 69px;
     margin-left: 180px ;
