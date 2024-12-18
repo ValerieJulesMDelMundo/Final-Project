@@ -22,6 +22,12 @@ article {
   margin-right: 20px;
 } 
 
+a[target="_blank"] {
+  margin-left: 180px;
+  padding: 0px 0px;
+  margin-right: 20px;
+}
+
 .sprite {
 	background: url('siteimages/SDGsymbols.png') no-repeat 0 0;
 	width: 157px;
@@ -79,5 +85,4 @@ footer {
   color: white;
   display: block;
 }
-
   
