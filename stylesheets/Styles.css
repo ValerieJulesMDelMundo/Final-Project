@@ -1,4 +1,4 @@
-:root {
+:root{
   background-image: url('siteimages/notebookcover.jpg');
 }
 
@@ -21,6 +21,12 @@ article {
   padding: 0px 0px;
   margin-right: 20px;
 } 
+
+.sprite {
+	background: url('siteimages/SDGsymbols.png') no-repeat 0 0;
+	width: 157px;
+	height: 160px;
+}
 
 /*navigation bar*/
 nav {
