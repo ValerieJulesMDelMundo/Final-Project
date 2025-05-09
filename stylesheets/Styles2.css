@@ -1,5 +1,5 @@
   :root {
-    background:url("siteimages/notebookcover.png");
+    background-image: url('/siteimages/notebookcover.png');
   }
 
   /*text style*/
@@ -50,13 +50,18 @@
     margin-right: 20px;
   } 
 
-  .sprite {
-    background: url(/siteimages/babycrawling.png) no-repeat 0, 0;
-    width: 82px; 
-    height: 69px;
-    margin-left: 180px ;
+  .sprites {
+    background-image: url('/siteimages/babycrawling.png');
+    background-repeat: no-repeat;
+    /* background-size: cover;
+    background-position: center; */
+    width: 90px; 
+    height: 100px;
+    margin-top: 680px ;
+    margin-left: 500px;
     animation: varName 1s steps(4) infinite;
   }
+
   @keyframes varName{
     from{background-position-x:0px;}
     to{background-position-x:-405px;}
@@ -64,7 +69,7 @@
 
   iframe{
     display: block;
-    margin:auto
+    margin:auto;
   }
 
   /*header*/

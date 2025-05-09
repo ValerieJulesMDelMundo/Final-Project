@@ -1,5 +1,5 @@
 :root{
-    background-image: url("siteimages/notebookcover.png");
+    background-image: url("/siteimages/notebookcover.png");
   }
 
   /*text style*/
@@ -49,11 +49,15 @@
 
   .stickynote3 {
     background-color: #ffffff;
-    border-image: url(siteimages/pictureboder.jpg);
-    margin: 10px;
-    max-width: 450px;
+    border: 10px solid transparent;
+    border-image: url('/siteimages/paperborder.jpg') 30 round;
+    
+    margin-top: 450px;
+    width: 450px;
+    height: 300px;
     margin-bottom: 50px;
     border-radius: 40px;
+    padding: 10px;
   }
 
   section {
@@ -137,5 +141,4 @@
     position: relative;
     transform: rotate(-27deg);
   }
-  
   
