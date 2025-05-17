@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Signup</title>
+  <link rel="stylesheet" href="stylesheets/style.css" />
+  </head>
+  <body>
+  <header>
+    <img src="siteimages/Mother’s Memo.png" alt="Mother's Memo">
+  </header>
+  <div class="grid-container">
+    <div class="grid-item">
+      <section class="form-section">
+        <h5>Signup Form</h5>
+        <form id="signupForm">
+          <label for="firstName">First Name <span class="required-asterisk">*</span></label><br>
+          <input type="text" id="firstName" required>
+          <span class="error" id="errorFirstName"></span>
+          <br><br>
+
+          <label for="lastName">Last Name <span class="required-asterisk">*</span></label><br>
+          <input type="text" id="lastName" required>
+          <span class="error" id="errorLastName"></span>
+          <br><br>
+
+          <label>Sex <span class="required-asterisk">*</span></label><br>
+          <div style="display: flex; gap: 10px; align-items: center; margin-left: 30px; margin-top: 10px;">
+            <label><input type="radio" name="sex" value="male" required> Male</label><br>
+            <label><input type="radio" name="sex" value="female" required> Female</label><br>
+            <label><input type="radio" name="sex" value="other" required> Prefer not to say</label>
+          </div>
+          <span class="error" id="errorSex"></span>
+          <br><br>
+
+          <label for="email">Email Address <span class="required-asterisk">*</span></label><br>
+          <input type="text" id="email" required>
+          <span class="error" id="errorEmail"></span>
+          <br><br>
+
+          <label for="password">Password <span class="required-asterisk">*</span></label><br>
+          <input type="password" id="password" required>
+          <span class="error" id="errorPassword"></span>
+          <br><br>
+
+          <label for="contact">Contact Number</label><br>
+          <input type="text" id="contact">
+          <br><br>
+
+          <label for="why">Why you're supporting our campaign <span class="required-asterisk">*</span></label><br>
+          <textarea id="why" rows="4" required></textarea>
+          <span class="error" id="errorWhy"></span>
+          <br><br>
+
+          <button type="submit">Join the Movement</button>
+        </form>
+      </section>
+    </div>  
+    <div class="grid-items">
+      <h2>Partnership Campaign</h2>
+      <h4>Bukas Palad: Center for Life Program</h4>
+      <p>We partnered with Bukas Palad, a non-profit and non-governmental organization that provides sustainable development, education, livelihood, information and communication strategy to children, elderly, urban poor, and victims of calamities and disasters. We specifically partnered with their Center of Life Program which helps guide new parents through their first steps of parenthood. The organization is currently looking for volunteers. If you believe you have the capabilities to assist this campaign and their cause, please fill out the sign up form at the side of this page.</p>
+
+    </div>
+
+  </div>
+
+  </body>
+  <script defer src="script.js"></script>
+ <footer>
+      <p>For more info please contact Valerie Jules M. Del Mundo via email: valeriejules.delmundo@smc.pshs.edu.ph</p>
+  </footer>
+
+   <nav>
+    <a href="home.html.html">Home</a>
+    <a href="Childcare.html">Childcare</a>
+    <a href="pregnancy.html.html">Pregnancy</a>
+    <a href="proj_signup_Del Mundo.html">Partnership</a>
+   </nav>
+</html>
